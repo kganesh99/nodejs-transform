@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "chicagocodetest",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "node": "node ./app/index.js",
+    "start": "nodemon index.js"
+  },
+  "author": "tharani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fast-csv": "^2.4.1",
+    "http": "0.0.0",
+    "nodemon": "^1.18.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {}
+}
