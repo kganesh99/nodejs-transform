@@ -2,11 +2,9 @@
   "name": "myapp",
   "version": "1.0.0",
   "description": "chicagocodetest",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "npm test",
-    "node": "node ./app/index.js",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "author": "tharani",
   "license": "ISC",
