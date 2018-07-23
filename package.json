@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm test",
     "node": "node ./app/index.js",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "tharani",
   "license": "ISC",
