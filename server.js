@@ -6,8 +6,7 @@ const app = express();
 const displayRoutes = require('./api/routes/display');
 app.set('json spaces', 4);
 app.use('/display', displayRoutes);
-var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
-    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
+
 // app.get('/', function(req, res) {
 //   res.render('index', { title: 'Hey', message: 'Hello there!' });
 // }); //res.send('Hello World!'));
@@ -89,6 +88,6 @@ var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
 
 // console.log(output);
 
-app.listen(port, ip);
-console.log('Server running on http://%s:%s', ip, port);
+app.listen(8080, () => console.log('Example app listening on port 8080!'));
+
 module.exports = app;
